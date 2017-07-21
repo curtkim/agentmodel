@@ -1,3 +1,6 @@
+# Source
+http://agentmodels.org
+
 # Howto
 
     npm install webppl
