@@ -1,9 +1,10 @@
 var dist = Infer({
   model() {
-    var n = uniformDraw([0, 1, 2]);
-    factor(n * n);
-    return n;
+    var n = uniformDraw([1, 2, 3])
+    console.log(n)
+    factor(n)
+    return n
   }
-});
+})
 
 dist
